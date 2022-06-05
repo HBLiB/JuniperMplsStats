@@ -19,3 +19,9 @@ Runs every 5 minutes
 
 Assign correct variables to #bastionServer, #userName. Add PE devices to #devices array
 Password is asked at run time once and can keep running after.
+
+---- P-LSP: Able to create graphs with:
+- P router
+- LSP name
+- LSPbytes
+- LSPpackets
