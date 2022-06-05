@@ -79,13 +79,16 @@ def main():
     count =  0
     os.system("clear")
     while True:
-        try:
-            connections(devices,userName,passWord)
-        except Exception as e:
-            logging.error(traceback.format_exc())
-        count = count + 1
-        print(datetime.now().strftime("%d-%m-%Y::%H:%M:%S") + "\tNow at Cycle\t" + str(count))
-        time.sleep(300)
+        if datetime.now().strftime("%M")[-1] == "0" or datetime.now().strftime("%M")[-1] == "5":
+            try:
+                connections(devices,userName,passWord)
+            except Exception as e:
+                logging.error(traceback.format_exc())
+            count = count + 1
+            print(datetime.now().strftime("%d-%m-%Y::%H:%M:%S") + "\tNow at Cycle\t" + str(count))
+            time.sleep(61)
+        else:
+            time.sleep(1)
 
 
 if __name__ == "__main__":
