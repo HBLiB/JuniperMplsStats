@@ -15,3 +15,7 @@ Able to create graphs with:
 - LSP name
 - LSPbytes
 - LSPpackets
+
+
+Assign correct variables to #bastionServer, #userName. Add PE devices to #devices array
+Password is asked at run time once and can keep running after.
