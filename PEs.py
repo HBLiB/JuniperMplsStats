@@ -11,7 +11,6 @@ from datetime import datetime
 
 
 data = {}
-lspIndex = {}
 mcast = {}
 mcastRaw = {}
 
