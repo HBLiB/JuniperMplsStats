@@ -1,7 +1,7 @@
 # JuniperMplsStats
 Junos MPLS LSP sorting and sending to influxdb with udp
 
-Quick insight in MVPN LSPs for JUNOS(18.+) and sending them to a "local" influxdb server to visualise with Grafana for example.
+Quick insight in MVPN and Transit LSPs for JUNOS(18.+) and sending them to a "local" influxdb server to visualise with Grafana for example.
 
 Handy for troubleshooting, monitoring and just geeky stats
 
