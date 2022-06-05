@@ -73,10 +73,8 @@ def main():
                 logging.error(traceback.format_exc())
             count = count + 1
             print(datetime.now().strftime("%d-%m-%Y::%H:%M:%S") + "\tNow at Cycle\t" + str(count))
-            print("ran and waiting for next Cycle")
             time.sleep(61)
         else:
-            print("not the time\t" + datetime.now().strftime("%M")[-1])
             time.sleep(1)
 
 if __name__ == "__main__":
